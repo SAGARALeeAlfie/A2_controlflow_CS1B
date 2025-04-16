@@ -1,0 +1,70 @@
+//Control Flow Structures in JavaScript (Conditional):
+Conditional structures in JavaScript are used to make 
+decisions based on certain conditions.
+The most common conditional statements
+include if, else if, else, and switch.
+The if statement checks a condition and executes code only if the condition is true.
+The else if provides an additional condition if the previous one was false,
+and else executes a block if none of the previous conditions were met.
+The switch statement is useful for comparing a single value against 
+numultiple possible cases. These structures allow programs to react differently 
+based on different inputs or states, enabling dynamic and responsive behavior.
+
+SYNTAX AND SAMPLE
+*/
+
+// if-else example
+let score = 85;
+if (score >= 90) {
+    console.log("Grade: A");
+} else if (score >= 80) {
+    console.log("Grade: B");
+} else {
+    console.log("Grade: C or below");
+}
+
+// switch example
+let day = "Monday";
+switch(day) {
+    case "Monday":
+        console.log("Start of the work week.");
+        break;
+    case "Friday":
+        console.log("Almost the weekend!");
+        break;
+    default:
+        console.log("Another day.");
+}
+
+Control Flow Structures in JavaScript (Loop):
+Loop structures in JavaScript allow for repeating blocks of code based on conditions or ranges.
+The most common loop types are for, while, and do...while.
+The for loop is typically used when the number of iterations is known.
+The while loop continues as long as a specified condition is true. 
+The do...while loop is similar to the while, but it executes the block at least once before checking the condition.
+These structures are essential for iterating through arrays, repeating tasks, or automating repetitive operations.
+
+SYNTAX AND SAMPLE
+
+// for loop
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
+
+// while loop
+let count = 0;
+while (count < 3) {
+    console.log("Count is: " + count);
+    count++;
+}
+
+// do...while loop
+let num = 0;
+do {
+    console.log("Number is: " + num);
+    num++;
+} while (num < 2);
+
+reference 
+
+https://codeinstitute.net/global/blog/control-flow-in-javascript/?need_sec_link=1&sec_link_scene=im
