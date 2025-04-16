@@ -1,0 +1,20 @@
+What is an Infinite Loop?
+An infinite loop is a loop that never terminates or exits, either due to 
+a logical flaw in its condition or a missing update statement.
+This means the loop will continue running indefinitely,
+which can lead to program crashes, browser freezing,
+or CPU overuse. In JavaScript, infinite loops typically occur when the loop 
+condition always evaluates to true and there’s no break statement or change in control flow to stop it.
+
+How is an Infinite Loop Triggered and How to Avoid It?
+Infinite loops are usually triggered when a condition is poorly
+defined or the loop's terminating condition is never reached.
+For example, in a while loop where the counter is never incremented,
+the condition will always be true. To avoid infinite loops, developers should ensure 
+that loop conditions are logically sound, loop counters are correctly incremented or
+updated, and break conditions are properly placed. Using debugging tools
+and setting maximum iteration limits during development can also help prevent them.
+
+references:
+https://www.easytechjunkie.com/what-is-an-infinite-loop.htm?need_sec_link=1&sec_link_scene=im
+https://flexiple.com/javascript/infinite-loops-javascript?need_sec_link=1&sec_link_scene=im
